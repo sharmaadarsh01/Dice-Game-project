@@ -14,7 +14,7 @@ var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
 var randomImageSource2 = "dice" + randomNumber2 + ".png";
 
-document.querySelectorAll("png")[1].setAttribute("src", randomImageSource2);
+document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 
 
 //If player 1 wins

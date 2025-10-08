@@ -1,9 +1,9 @@
 
 var randomNumber1 = Math.floor(Math.random() * 6) + 1; //1-6
 
-var randomDiceImage = "dice" + randomNumber1 + ".png"; //dice1.png - dice6.png
+var randomDiceImage = "dice" + randomNumber1 + ".png";
 
-var randomImageSource = "dice1.png" + randomDiceImage; //images/dice1.png - images/dice6.png
+var randomImageSource = randomDiceImage; 
 
 var image1 = document.querySelectorAll("img")[0];
 
